@@ -18,5 +18,8 @@ public class Main {
         }
         int[] arr1;
         arr1=findDiagonalOrder(arr);
+        for(int i=0; i<row*col; i++){
+            System.out.print(arr1[i]+" ");
+        }
     }
 }
