@@ -2,6 +2,8 @@ package main;
 
 import java.util.Scanner;
 
+import static solution.Solution.findDiagonalOrder;
+
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -14,5 +16,7 @@ public class Main {
             }
 
         }
+        int[] arr1;
+        arr1=findDiagonalOrder(arr);
     }
 }
